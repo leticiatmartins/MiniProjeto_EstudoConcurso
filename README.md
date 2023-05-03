@@ -1,4 +1,4 @@
-Miniprojeto de MDS - Estudo para concursos
+Miniprojeto - Estudo para concursos
 ------------------------------------------
 
 Este projeto é para a matéria de Orientação a Objetos
