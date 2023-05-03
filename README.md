@@ -1,7 +1,7 @@
 Miniprojeto de MDS - Estudo para concursos
 ------------------------------------------
 
-Este projeto é para a matéria de Métodos de Desenvolvimento de Software
+Este projeto é para a matéria de Orientação a Objetos
 da professora Fabiana Mendes (https://github.com/profaFabianaMendes)
 
 O objetivo é fazer um sistema de CRUD de questões de provas de concurso.
@@ -18,7 +18,7 @@ Matrícula: 202016702
 Email: leticiats@outlook.com
 
 
-Matéria: Métodos de Desenvolvimento de Software
+Matéria: Orientação a Objetos
 
 Ano/Semestre: 2023/01
 
