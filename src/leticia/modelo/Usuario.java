@@ -54,4 +54,11 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+
+	public boolean realizarLogin(String email, String senha) {
+	    String lowercaseEmail = email.toLowerCase();
+	    String lowercaseSenha = senha.toLowerCase();
+	    return this.email.equalsIgnoreCase(lowercaseEmail) && this.senha.equals(lowercaseSenha);
+	}
+
 }

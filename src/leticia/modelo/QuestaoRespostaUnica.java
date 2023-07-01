@@ -1,18 +1,18 @@
 package leticia.modelo;
 
 public class QuestaoRespostaUnica extends Questao {
-	private String respostaCorreta;
+	private String resposta;
 
-	public QuestaoRespostaUnica(int id, String materia, String concurso, String textoQuestao, String respostaCorreta) {
-		super(id, materia, concurso, textoQuestao);
-		this.respostaCorreta = respostaCorreta;
-	}
+    public QuestaoRespostaUnica(int id, String materia, String concurso ,String textoQuestao, String resposta) {
+        super(id, materia, concurso, textoQuestao, resposta);
+        this.resposta = resposta;
+    }
 
 	public String getRespostaCorreta() {
-		return respostaCorreta;
-	}
+        return resposta;
+    }
 
-	public void setRespostaCorreta(String respostaCorreta) {
-		this.respostaCorreta = respostaCorreta;
-	}
+    public void setRespostaCorreta(String respostaCorreta) {
+        this.resposta = respostaCorreta;
+    }
 }

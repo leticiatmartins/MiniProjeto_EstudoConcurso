@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"leticia.modelo","l":"Dados"},{"p":"leticia.modelo","l":"Questao"},{"p":"leticia.modelo","l":"QuestaoMultiplaEscolha"},{"p":"leticia.modelo","l":"QuestaoRespostaUnica"},{"p":"leticia.modelo","l":"Usuario"}];updateSearchResults();

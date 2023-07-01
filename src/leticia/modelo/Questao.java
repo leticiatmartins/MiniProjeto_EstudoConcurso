@@ -5,12 +5,14 @@ public abstract class Questao {
 	private String materia;
 	private String concurso;
 	private String textoQuestao;
+	private String Resposta;
 
-	public Questao(int id, String materia, String concurso, String textoQuestao) {
+	public Questao(int id, String materia, String concurso, String textoQuestao, String resposta) {
 		this.id = id;
 		this.materia = materia;
 		this.concurso = concurso;
 		this.textoQuestao = textoQuestao;
+		this.Resposta = resposta;
 	}
 
 	public int getId() {
@@ -44,4 +46,12 @@ public abstract class Questao {
 	public void setTextoQuestao(String textoQuestao) {
 		this.textoQuestao = textoQuestao;
 	}
+
+	public String getResposta() {
+        return Resposta;
+    }
+
+    public void setResposta(String resposta) {
+        this.Resposta = resposta;
+    }
 }
